@@ -178,8 +178,8 @@ class Matches extends CI_Controller {
             else
             {
                 $this->create_controller($app);
-                $this->create_model($app);
-                $this->create_view($app);
+                $this->create_model($app . '_model');
+                $this->create_view($app) . '_view';
 
             }
         }
